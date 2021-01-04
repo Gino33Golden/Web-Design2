@@ -1,0 +1,110 @@
+.Welcome {
+    background-color:#558caa;
+    text-align:center;
+}
+
+.body1  {
+    background-color:#cceeff;
+
+}
+
+.reasons {
+    text-align: center;
+}
+
+table {
+    text-align:center;
+}
+
+img.logo {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+img {
+    text-align:center;
+}
+
+.logo1 {
+    text-align:center;
+}
+
+.Welcome {
+                font-size: 50px;
+                font-weight: bold;
+                color: red ;
+            }
+
+.Dallas {
+    height:300px;
+    width:300px;
+}
+
+div.row div {
+    border: 5px solid black;
+}
+
+hr {
+    border: .5px solid black;
+}
+
+.Dallas {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;}
+    }
+
+    h2 {text-align: center;}
+
+    h3 {text-align: center;}
+
+    p {text-align: center;}
+
+    .Centertable {
+        text-align: center;
+    }
